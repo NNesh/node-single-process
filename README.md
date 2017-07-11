@@ -24,11 +24,7 @@ This is module for starting application just once. If application has been start
 
   const { app } = require('electron');
   const process = require('process');
-
-  console.log('Before export');
   const { startSingleProcess } = require('../lib/node-single-process');
-
-  console.log('Before class');
 
   class TestApplication {
     constructor(callback) {
@@ -48,8 +44,6 @@ This is module for starting application just once. If application has been start
       });
     }
   }
-
-  console.log('After class');
 
   var application = null;
 
