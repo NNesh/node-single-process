@@ -4,7 +4,7 @@ This is module for starting application just once. If application has been start
 #### API
 
   Import:  
-    `import { startSingleProcess } from 'node-single-process'`
+    `import { startSingleProcess } from 'node-single-process'`  
   or:  
     `var { startSingleProcess } = require 'node-single-process'`
 
