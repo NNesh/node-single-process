@@ -1,0 +1,32 @@
+{
+  "name": "single-process",
+  "version": "0.7.0",
+  "description": "This is module for starting application just once.",
+  "main": "./specs/app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha ./specs/single-process-spec.js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NNesh/node-single-process.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pipe",
+    "server"
+  ],
+  "author": "Ruslan Mullayanov <mullruslan@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NNesh/node-single-process/issues"
+  },
+  "homepage": "https://github.com/NNesh/node-single-process#readme",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "spectron": "^3.7.2"
+  }
+}
