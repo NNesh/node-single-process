@@ -11,7 +11,7 @@ This is module for starting application just once. If application has been start
 ```
   startSingleProcess(socketName, getSendingData, callbackData);
 
-  This function start local server using UNIX domain socket (IPC). There are follow arguments:
+  This function starts the local server by using UNIX domain socket (IPC). There are follow arguments:
     socketName - name of socket which needs create,
     getSendingData() - callback function which should return string data,
     callbackData(data) - callback function which will receive buffer data
