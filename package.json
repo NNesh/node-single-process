@@ -1,8 +1,8 @@
 {
   "name": "single-process",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "This is module for starting application just once.",
-  "main": "./specs/app.js",
+  "main": "./specs/app1.js",
   "directories": {
     "lib": "lib"
   },
